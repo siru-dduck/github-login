@@ -1,4 +1,4 @@
 # github-login
  Cloning github-login for practicing HTML5 & css
 
-github-login ī���غþ�� :-D
+github-login 구현해보았습니다! :-D
