@@ -1,0 +1,106 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:300|Open+Sans+Condensed:300&display=swap");
+.container {
+  width: 260px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon_box {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+h1 {
+  font-size: 22px;
+  font-family: "Open Sans Condensed", "Noto Sans TC", sans-serif;
+  font-weight: 300;
+  color: rgba(51, 51, 51, 0.9);
+}
+
+form {
+  border: 0.06rem solid#d8dee2;
+  margin-top: 16px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+a {
+  color: #0366d6;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+label,
+input {
+  display: block;
+  text-align: left;
+}
+label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: Helvetica;
+  margin-bottom: 7px;
+}
+
+input {
+  border: 0.06rem solid rgba(189, 195, 199, 0.8);
+  margin-bottom: 15px;
+  width: 95%;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.float_right {
+  float: right;
+  font-weight: 500;
+}
+.float_right:hover {
+  text-decoration: none;
+}
+
+.signbtn {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  border-radius: 4px;
+  background-color: #28a745;
+  background-image: linear-gradient(-180deg, #34d058, #28a745 90%);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.border_box {
+  border: 0.06rem solid#d8dee2;
+  margin-top: 16px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: Helvetica;
+}
+
+.footer {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: 300;
+  font-family: Helvetica;
+}
+
+.footer > ul > li {
+  display: inline-block;
+}
+
+.margin_right16 {
+  margin-right: 16px;
+}
